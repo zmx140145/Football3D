@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b626ddd8210eb1748aded49097007285, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  LeftShiftPower: 1.45
+  LeftShiftWithBallPower: 1.35
+  LeftShiftKickBallPower: 1.6
+  LeftShiftFirstKickBallBall: 1.2
+  LeftShiftTurnDirectionPower: 2.5
+  calculatePower: 1.7
+  TurnDirctionValue: 0.1
+  TurnDirectionGlobalValue: 2
+  MaxSpeed: 6
+  MaxSpeedWithBall: 5.6
+  MaxForce: 25
+  MaxShootingForce: 30
+  MinPassingDistance: 10
+  NicePassingTime: 0.4
+  MaxPassingTime: 1
+  MaxPassingForce: 35
+  NicePassingForce: 15
+  limitDotDomainToPass: 0.5
+  MaxDribbleForce: 6.5
+  TurnBallForce: 5.3
+  TrunBackBallForce: 5
+  CanTurnBallAngle: 60
+  TrunBackRange: 130
+  SingleTurnBallAngle: 30
+  SingleTurnBackBallAngle: 90
+  InsideRange: 3
+  OutsideRange: 8
+  coliderVolume: 0.05
+  ViewLength: 10
+  ViewAngle: 210
+  TouchLength: 1.6
+  TouchAngle: 270
+  ReceiveBallRange: 2.2
+  KickBallRange: 1.6
+  ControllBallRange: 1.2
+  KickBallCD: 0.4
+  BodyRadius: 0.5
+  CutBallRange: 1.8
+  CutBallAngle: 60
+  pb_StrongOfBodyStrenth: 8
+  AttemptToCutBallPosibility: 0.1
+  ThreatenedPassFactor: 3
+  weight: 2
+  DefendKeepDistance: 2
+  DefendPursuitKeepDistance: 3
+  DefendPursuitRange: 12
+  MaxStopBallSpeed: 30
+  NeedStopBallSpeed: 15
+  PredictTime: 0.5
